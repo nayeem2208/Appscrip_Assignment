@@ -1,0 +1,30 @@
+.black_header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    width: 100%;
+    height: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: #EB4C6B;
+    font-size: small;
+}
+
+p{
+    font-family: "Simplon Norm", sans-serif;;
+}
+
+.black_header_iconDiv{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin-right: 2vh;
+    width: 40;
+}
+
+.black_header_iconDiv img{
+    margin-right: 2vh;
+    
+}
+
