@@ -14,7 +14,7 @@ export default function Header() {
   let [dropDownVisible, setDropDownVisible] = useState(false);
 
   return (
-    <div className="Header">
+    <header className="Header">
       <div className="black_header ">
         <div className="black_header_iconDiv ">
           <img
@@ -41,7 +41,7 @@ export default function Header() {
           <p className="hidden md:block">Lorem ipsum dolor</p>
         </div>
       </div>
-      <div className="main_header flex mt-4 md:mt-0 justify-between py-6 px-2 md:px-16 ">
+      <nav className="main_header flex mt-4 md:mt-0 justify-between py-6 px-2 md:px-16 ">
         <div className="flex  w-1/3 ">
           <HiOutlineBars3
             className="w-8 h-8 md:hidden mx-2"
@@ -53,7 +53,7 @@ export default function Header() {
             className="app_logo w-6 h-6 mt-1"
           />
         </div>
-        <div className=" w-16 md:w-1/12 flex justify-center ">
+        <div className=" w-16 md:w-1/12 h-4 md:h-6 mt-1 md:mt-0 flex justify-center ">
           <img
             src="/textLogo.png"
             alt="Text logo of the app"
@@ -69,8 +69,8 @@ export default function Header() {
           <p className="hidden md:block mt-1">ENG</p>
           <RiArrowDropDownLine className="w-6 h-6 mt-1 hidden md:block " />
         </div>
-      </div>
-      <div className="   mt-8 hidden md:flex justify-center">
+      </nav>
+      <nav className="   mt-8 hidden md:flex justify-center">
         <ul className="flex w-3/5 justify-evenly text-md font-semibold">
           <li>SHOP</li>
           <li>SKILLS</li>
@@ -78,9 +78,9 @@ export default function Header() {
           <li>ABOUT</li>
           <li>CONTACT US</li>
         </ul>
-      </div>
+      </nav>
       {dropDownVisible && (
-        <div className="md:hidden   mt-8 justify-center">
+        <nav className="md:hidden   mt-8 justify-center">
           <ul className="dropdown w-3/5 justify-evenly text-md font-semibold mx-4">
             <li>SHOP</li>
             <li>SKILLS</li>
@@ -90,8 +90,8 @@ export default function Header() {
             <li>User</li>
             <li>Language</li>
           </ul>
-        </div>
+        </nav>
       )}
-    </div>
+    </header>
   );
 }

@@ -10,7 +10,7 @@ function Footer() {
 
 
   return (
-    <div className="footer ">
+    <footer className="footer ">
       {/* fistrow of footer */}
       <div className="w-full flex justify-center">
         <div className="md:flex w-11/12  lg:w-5/6 justify-between border-b border-white pb-3">
@@ -147,7 +147,7 @@ function Footer() {
       <p className="text-center text-xs hidden md:flex justify-center">
             Copyright @ 2023 mettamuse.All rights reserved
           </p>
-    </div>
+    </footer>
   );
 }
 
