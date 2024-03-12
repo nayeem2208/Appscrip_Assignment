@@ -1,0 +1,28 @@
+.footer{
+    background-color: black;
+    color: white;
+    padding-top: 3vw;
+    padding-bottom: 1vw;
+}
+
+.subscribe_div{
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+}
+
+.subscribe_btn{
+    margin-left: 1vw;
+    border: rgb(88, 87, 87) 1px solid;
+    color:rgb(88, 87, 87) ;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    border-radius: 5px;
+}
+
+.second_footer li{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    font-size: small;
+}

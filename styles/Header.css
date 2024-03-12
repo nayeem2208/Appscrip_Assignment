@@ -20,12 +20,12 @@ p{
     display: flex;
     justify-content: center;
     height: 100%;
-    margin-right: 2vh;
+    margin-right: 2vw;
     width: 40;
 }
 
 .black_header_iconDiv img{
-    margin-right: 2vh; 
+    margin-right: 2vw; 
 }
 
 .main_header{
@@ -34,9 +34,9 @@ p{
    
 }
 
-.app_logo{
-    width: 2.5vw;
-}
+/* .app_logo{
+    width: 5vh;
+} */
 
 .text_logo{
     width: 8vw;
@@ -50,13 +50,11 @@ p{
     margin-top: 3vw;
 }
 
-.description h2{
-    font-size: xx-large;
-    font-weight: 300;
-}
 
-.description p{
-    font-weight: 100;
-    font-size: larger;
+
+
+
+.dropdown li{
+    margin: 1vw;
 }
 
