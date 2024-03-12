@@ -20,7 +20,7 @@ function SideBar() {
     setExpanded(expanded === index ? null : index);
   };
   return (
-    <div>
+    <nav>
       <div className="flex sub_heading">
         <input type="checkbox" />
         <h2 className="ml-2">CUSTOMIZABLE</h2>
@@ -54,7 +54,7 @@ function SideBar() {
           )}
         </div>
       ))}
-    </div>
+    </nav>
   );
 }
 
